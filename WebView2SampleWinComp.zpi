@@ -1,0 +1,65 @@
+<!-- Project file for the Zeus IDE - https://www.zeusedit.com -->
+<Project name="WebView2SampleWinComp" sorted="Yes" autosynch="Yes" folder_based="No" filename="WebView2SampleWinComp.vcxproj" st_mtime="1737464241" type="C++">
+    <MakeFile>WebView2SampleWinComp.vcxproj</MakeFile>
+    <TagWorkspace>On</TagWorkspace>
+    <TagNoIntellisense>Off</TagNoIntellisense>
+    <DebugMake>MsBuild.exe $PDD$PF /t:Build /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m  /clp:NoSummary</DebugMake>
+    <DebugClean>MsBuild.exe $PDD$PF /t:Clean /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m  /clp:NoSummary</DebugClean>
+    <DebugRebuild>MsBuild.exe $PDD$PF /t:Rebuild /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m  /clp:NoSummary</DebugRebuild>
+    <DebugCompile>MsBuild.exe $PDD$PF /p:SelectedFiles=&quot;$FR&quot;  /t:ClCompile /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m  /clp:NoSummary</DebugCompile>
+    <ReleaseMake>MsBuild.exe $PDD$PF /t:Build /p:Configuration=Release /p:OutputPath=./bin/Release/  /v:m  /clp:NoSummary</ReleaseMake>
+    <ReleaseClean>MsBuild.exe $PDD$PF /t:Clean /p:Configuration=Release /p:OutputPath=./bin/Release/  /v:m  /clp:NoSummary</ReleaseClean>
+    <ReleaseRebuild>MsBuild.exe $PDD$PF /t:Rebuild /p:Configuration=Release /p:OutputPath=./bin/Release/  /v:m  /clp:NoSummary</ReleaseRebuild>
+    <ReleaseCompile>MsBuild.exe $PDD$PF /p:SelectedFiles=&quot;$FR&quot;  /t:ClCompile /p:Configuration=Release /p:OutputPath=./bin/Release/  /v:m  /clp:NoSummary</ReleaseCompile>
+    <EnvPath>$MsBuildPath</EnvPath>
+    <DebugCompilerOutput>Warnings</DebugCompilerOutput>
+    <DebugCompilerStdOut>On</DebugCompilerStdOut>
+    <DebugCompilerStdErr>On</DebugCompilerStdErr>
+    <DebugCompilerSaveAll>Off</DebugCompilerSaveAll>
+    <DebugCompilerReload>Off</DebugCompilerReload>
+    <DebugProjectOutput>Warnings</DebugProjectOutput>
+    <DebugProjectStdOut>On</DebugProjectStdOut>
+    <DebugProjectStdErr>On</DebugProjectStdErr>
+    <DebugProjectSaveAll>On</DebugProjectSaveAll>
+    <DebugProjectReload>Off</DebugProjectReload>
+    <ReleaseCompilerOutput>Warnings</ReleaseCompilerOutput>
+    <ReleaseCompilerStdOut>On</ReleaseCompilerStdOut>
+    <ReleaseCompilerStdErr>On</ReleaseCompilerStdErr>
+    <ReleaseCompilerSaveAll>Off</ReleaseCompilerSaveAll>
+    <ReleaseCompilerReload>Off</ReleaseCompilerReload>
+    <ReleaseProjectOutput>Warnings</ReleaseProjectOutput>
+    <ReleaseProjectStdOut>On</ReleaseProjectStdOut>
+    <ReleaseProjectStdErr>On</ReleaseProjectStdErr>
+    <ReleaseProjectSaveAll>On</ReleaseProjectSaveAll>
+    <ReleaseProjectReload>Off</ReleaseProjectReload>
+    <SearchPath></SearchPath>
+    <DebugDirectory>$pdd\Debug\</DebugDirectory>
+    <ReleaseDirectory>$pdd\Release\</ReleaseDirectory>
+    <DebugExecutable>$pb.exe</DebugExecutable>
+    <ReleaseExecutable>$pb.exe</ReleaseExecutable>
+    <DebugCaptureStdOut>On</DebugCaptureStdOut>
+    <DebugCaptureStdErr>On</DebugCaptureStdErr>
+    <ReleaseCaptureStdOut>On</ReleaseCaptureStdOut>
+    <ReleaseCaptureStdErr>On</ReleaseCaptureStdErr>
+    <File>packages.config</File>
+    <Folder name="Header Files" sorted="Yes">
+        <File>App.h</File>
+        <File>AppWindow.h</File>
+        <File>CheckFailure.h</File>
+        <File>CompositionHost.h</File>
+        <File>framework.h</File>
+        <File>pch.h</File>
+        <File>Resource.h</File>
+        <File>targetver.h</File>
+    </Folder>
+    <Folder name="Resource Files" sorted="Yes">
+        <File>WebView2SampleWinComp.rc</File>
+    </Folder>
+    <Folder name="Source Files" sorted="Yes">
+        <File>App.cpp</File>
+        <File>AppWindow.cpp</File>
+        <File>CheckFailure.cpp</File>
+        <File>CompositionHost.cpp</File>
+        <File>pch.cpp</File>
+    </Folder>
+</Project>
